@@ -3,6 +3,7 @@
     <h1>Teste</h1>
     <life-cycle />
     <teste-component/>
+    <pessoa />
     </div>
 </template>
 
@@ -10,11 +11,14 @@
 
   import TesteComponent from './components/TesteComponent.vue';
   import LifeCycle from './components/LifeCycle.vue';
+  import Pessoa from './components/Pessoa.vue';
+
   export default{
     name:'app',
     components:{
       TesteComponent,
-      LifeCycle
+      LifeCycle,
+        Pessoa
     }
   }
 </script>

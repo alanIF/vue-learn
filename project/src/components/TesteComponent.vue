@@ -1,7 +1,9 @@
 <template>
     <div>
-        <h1>Primeiro Componente</h1>
-        <p>{{nome}}</p>
+        <h1>Testes de Diretivas</h1>
+        <p v-if="exibir">{{nome}}</p>
+        <p v-else>Nao é verdadeiro</p>
+        <a v-bind:href="link" target="_blank">google</a>
     </div>
 </template>
 
@@ -11,7 +13,9 @@ export default {
    name:"PrimeiroComponente" ,
    data(){
        return{
-           nome:"Alan"
+           nome:"Alan Tavares",
+           exibir:false,
+           link: "https://google.com"
        }
    }
 }
