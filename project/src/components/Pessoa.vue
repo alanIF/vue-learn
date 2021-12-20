@@ -19,8 +19,3 @@
         }
     }
 </script>
-<style scoped>
-    ul{
-        background-color: white;
-    }
-</style>
