@@ -4,6 +4,7 @@
         <p v-if="exibir">{{nome}}</p>
         <p v-else>Nao é verdadeiro</p>
         <a v-bind:href="link" target="_blank">google</a>
+        <button @click="show">Alerta</button>
     </div>
 </template>
 
@@ -17,6 +18,13 @@ export default {
            exibir:false,
            link: "https://google.com"
        }
-   }
+      
+   },
+    methods:{
+        show(){
+            this.exibir= true;
+            alert("Ola metodo")
+        }
+    }
 }
 </script>
