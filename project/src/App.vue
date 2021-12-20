@@ -1,18 +1,20 @@
 <template>
+  <div>
     <h1>Teste</h1>
-
-    <br/>
+    <life-cycle />
     <teste-component/>
+    </div>
 </template>
 
 <script>
 
   import TesteComponent from './components/TesteComponent.vue';
-
+  import LifeCycle from './components/LifeCycle.vue';
   export default{
     name:'app',
     components:{
-      TesteComponent
+      TesteComponent,
+      LifeCycle
     }
   }
 </script>
