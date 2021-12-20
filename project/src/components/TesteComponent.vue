@@ -1,10 +1,18 @@
 <template>
-    <h1>Primeiro Componente</h1>
+    <div>
+        <h1>Primeiro Componente</h1>
+        <p>{{nome}}</p>
+    </div>
 </template>
 
 <script>
 
 export default {
-   name:"PrimeiroComponente" 
+   name:"PrimeiroComponente" ,
+   data(){
+       return{
+           nome:"Alan"
+       }
+   }
 }
 </script>
