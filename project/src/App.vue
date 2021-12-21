@@ -9,9 +9,9 @@
   <div class="row">
     <div class="column" style="background-color:#aaa;">   <life-cycle />
   </div>
-    <div class="column" style="background-color:#bbb;">    <teste-component/>
+    <div class="column" style="background-color:#bbb;">    <teste-component teste="xxxxxxxxxxx"></teste-component>
   </div>
-    <div class="column" style="background-color:#ccc;">    <pessoa />
+  <div class="column" style="background-color:#ccc;">    <pessoa  />
   </div>
   </div>
 

@@ -11,6 +11,7 @@
           <ul >
             <li v-for="l in lista2" v-bind:key="l.id">{{l.nome}} -{{l.email}}  </li>
         </ul>
+        <h3>Recebendo valor externo: {{ teste}}</h3>
     </div>
 </template>
 
@@ -18,6 +19,9 @@
 
 export default {
    name:"PrimeiroComponente" ,
+   props:{
+    teste:String
+   },
    data(){
        return{
            nome:"Alan Tavares",
